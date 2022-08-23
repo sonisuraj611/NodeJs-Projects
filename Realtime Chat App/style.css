@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fredoka:wght@300&family=Josefin+Sans:wght@300&family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(95, 85, 35));
+    height: 100vh;
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 72px;
+    border-radius: 50px;
+}
+nav h1{
+    font-size: 30px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.container{
+    background: none;
+    overflow: auto;
+    margin: auto;
+    max-width: 40%;
+    color: grey;
+    border: 2px outset gold;
+    border-radius: 10px;
+    height: 65vh;
+}
+.message{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    width: auto;
+    max-width: 50%;
+    padding: 2px 4px;
+    font-size: 17px;
+    height: auto;
+    margin: 10px 10px;
+    border: 2px black;
+    border-radius: 6px;
+
+}
+.right{
+    color: white;
+    float: right;
+    clear: both;
+}
+.left{
+    color: white;
+    float: left;
+    clear: both;
+}
+#send-content{
+    text-align: center;
+    width: 40%;
+    margin: 7px auto;
+    display: flex;
+}
+#mymessage{
+    width: 90%;
+    height: 21px;
+    border: 2px inset gold;
+    border-radius: 6px;
+    outline: none;
+    font-size: 17px;
+}
+.btn{
+    border: 1px outset black;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 1px 5px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+@media (min-width:280px) and (max-width:915px) {
+    .container{
+        max-width: 75%;
+        height: 55vh;
+        margin: 30px auto 0px auto
+    }    
+    .message{
+        max-width: 60%;
+        font-size: 14px;
+    }
+    #send-content{
+        width: 70%;
+    }
+}

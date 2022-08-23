@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fredoka:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: #91a5c1; 
+    height: 60px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: left;
+}
+#logo{
+    display: flex;
+    padding: 0 18px;
+    color: black;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#logo img{
+    height: 60px;
+    filter: invert(1);
+}
+#navbar ul li{
+    list-style: none;
+    padding: 7px 8px;
+    margin: 9px 23px;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+#navbar ul li a{
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    /* background-color: #012c4e; */
+    /* color: grey; */
+    color: grey;
+    /* border-radius: 20px; */
+    /* font-size: 20px; */
+}
+
+#navbar ul li:hover{
+    cursor: pointer;
+}
+
+#introSection{
+    height: 450px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2.8rem;
+    flex-direction: column;
+    background: url("/static/bg4.jpg") no-repeat center/100% 110%;
+    font-family: 'Caveat', cursive;
+    /* background-size: 100% 100%; */
+}
+div.small{
+    font-size: 2rem;
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+#missionSection{
+    height: 315px;
+    background-color: #dddee6;
+}
+#missionSection h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 191px;
+    width: 23%;
+    margin: 25px;
+}
+.card h4{
+    text-align: center;
+    margin-top: 13px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+.card-img{
+    height: inherit;
+}
+.card-img img{
+    height: 100px;
+    margin: 0px 10px;
+}
+.card-content p{
+    text-align: top;
+}
+
+#sponsorsSection{
+    background-color: #ffffff;
+    height: 243px;
+}
+#sponsorsSection h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+#sponsors{
+    margin: auto;
+    width: 40%;
+}
+#sponsors img{
+    height: 192px;
+    background: no-repeat/cover;
+}
+#footer{
+    background-color: #f2b4b6;
+    /* background-color: #8d1519; */
+    height: 60px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+@media (max-width: 1200px) {
+    #introSection{
+    height: 450px;
+    display: flex;
+    color: black;
+    justify-content:center;
+    align-items: flex-start;
+    font-size: 2.8rem;
+    flex-direction: column;
+    background: url(/static/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+    }
+    div.big{
+        font-size: 37px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* #missionSection h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+#sponsorsSection{
+    background-color: red;
+    height: 200px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 23%;
+    height: 186px;
+    margin-top: 34px;
+    margin-left: 98px;;
+}
+.card h4{
+    text-align: center;
+    margin-top: 10px;
+} */

@@ -1,0 +1,1 @@
+First Run the index.js server and then run the index.html file 

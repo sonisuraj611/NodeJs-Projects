@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fredoka:wght@300&display=swap');
+.container h3{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.formclass{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 482px;
+}
+.input{
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px 0px;
+    display: block;
+    width: 40%;
+}
+.inputAdd{
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px 0px;
+    display: block;
+    height: 60px;
+    width: 40%;
+}
+.btn{
+
+    font-size: 17px;
+    background-color: #91a5c1;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+}

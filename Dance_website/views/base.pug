@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Soni Dance Academy
+    //- block scripts 
+    block style
+  body
+    nav#navbar 
+      ul 
+        div#logo 
+          img(src="/static/Logo.jpg", alt="Dance Logo")
+          | SDA
+        li #[a(href = '/home') Home]
+        li #[a(href = '/') About]
+        li #[a(href = '/') Classes]
+        li #[a(href = '/contact') Contact Us]
+    block content
+    footer#footer
+      h4 Copyright SoniDanceAcademy.com © 2022 | All Rights Reversed
